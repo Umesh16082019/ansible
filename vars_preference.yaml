@@ -1,8 +1,8 @@
 - name: variable preference
   hosts: local
   connection: local
-  vars:
-    NAME: "Ansible from Play"
+  # vars:
+  #   NAME: "Ansible from Play"
   # vars_files:
   # - VarsSeperate.yaml
   # vars_prompt:
@@ -21,3 +21,6 @@
 # 1. Args
 # 2. Task
 # 3. File
+# 4. Prompt
+# 5. Play
+# 6. Inventory
