@@ -1,0 +1,24 @@
+- name: data types demo
+  hosts: local
+  connection: local
+  vars:
+    COURSE: "DevOps with AWS" # String
+    DURATION: "140 Hrs" # int/number
+    IS_LIVE: true # bool
+    DETAILS: # map/dictionary
+      Months: 4
+      Trainer: "Siva"
+    TOPICS: #list
+    - AWS
+    - Docker
+    - Terraform
+
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+      msg: |
+        course: {{ COURSE }}
+        Duration: {{ DURATION }}
+        Is Live?: {{ IS_LIVE }}
+        Details : {{ DETAILS }}
+        Topics: {{ TOPICS }}
