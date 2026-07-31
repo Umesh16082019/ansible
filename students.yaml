@@ -1,0 +1,27 @@
+- name: "Umesh"
+  dob: "05-06-2000"
+  Email: "umesh160819@gmail.com"
+  addresses:
+  - FlatNumber: 401
+    Street: "Siddapura, Whitefield"
+    City: "Bangalore"
+    Type: "Perm"
+
+  - FlatNumber: 401
+    Street: "Siddapura, Whitefield"
+    City: "Bangalore"
+    Type: "Current"
+
+- name: "Chandu"
+  dob: "05-06-2000"
+  Email: "umesh160819@gmail.com"
+  addresses:
+  - FlatNumber: 401
+    Street: "Siddapura, Whitefield"
+    City: "Bangalore"
+    Type: "Perm"
+
+  - FlatNumber: 401
+    Street: "Siddapura, Whitefield"
+    City: "Bangalore"
+    Type: "Current"

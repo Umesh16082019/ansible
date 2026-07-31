@@ -1,0 +1,42 @@
+{
+  "Students": [
+    {
+      "Firstname": "Umnesh",
+      "DOB": "05-06-2000",
+      "Email": "umesh160819@gmail.com",
+      "Addresses": {
+        "PermAddress": {
+          "FlatNo": "401",
+          "Apartment": "Bharati Nilaya",
+          "Street": "Siddapura, Whitefield",
+          "City": "Bangalore"
+        },
+        "CurrentAddress": {
+          "FlatNo": "401",
+          "Apartment": "Bharati Nilaya",
+          "Street": "Siddapura, Whitefield",
+          "City": "Bangalore"
+        }
+      }
+    },
+    {
+      "Firstname": "Chandu",
+      "DOB": "05-06-2000",
+      "Email": "umesh160819@gmail.com",
+      "Addresses": {
+        "PermAddress": {
+          "FlatNo": "401",
+          "Apartment": "Bharati Nilaya",
+          "Street": "Siddapura, Whitefield",
+          "City": "Bangalore"
+        },
+        "CurrentAddress": {
+          "FlatNo": "401",
+          "Apartment": "Bharati Nilaya",
+          "Street": "Siddapura, Whitefield",
+          "City": "Bangalore"
+        }
+      }
+    }
+  ]
+}

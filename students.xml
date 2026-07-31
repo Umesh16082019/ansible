@@ -1,0 +1,44 @@
+<!-- Student Object-->
+<Students>
+    <student>
+        <Firstname>Umnesh</Firstname>
+        <DOB>05-06-2000</DOB>
+        <Email>umesh160819@gmail.com</Email>
+        <!-- Address-->
+        <Addresses>
+            <PermAddress>
+                <FlatNo>401</FlatNo>
+                <Apartment>Bharati Nilaya</Apartment>
+                <Street>Siddapura, Whitefield</Street>
+                <City>Bangalore</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNo>401</FlatNo>
+                <Apartment>Bharati Nilaya</Apartment>
+                <Street>Siddapura, Whitefield</Street>
+                <City>Bangalore</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+
+    <student>
+        <Firstname>Chandu</Firstname>
+        <DOB>05-06-2000</DOB>
+        <Email>umesh160819@gmail.com</Email>
+        <!-- Address-->
+        <Addresses>
+            <PermAddress>
+                <FlatNo>401</FlatNo>
+                <Apartment>Bharati Nilaya</Apartment>
+                <Street>Siddapura, Whitefield</Street>
+                <City>Bangalore</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNo>401</FlatNo>
+                <Apartment>Bharati Nilaya</Apartment>
+                <Street>Siddapura, Whitefield</Street>
+                <City>Bangalore</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+</Students>
