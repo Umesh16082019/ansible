@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    IS_LIVE: false
+    IS_LIVE: false # task executes only when IS_LIVE is true otherwise it skips
 
   tasks:
   - name: check live or not

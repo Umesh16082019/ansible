@@ -1,0 +1,11 @@
+- name: check if number of sessions are greater than 5
+  hosts: local
+  connection: local
+  vars:
+    NO_OF_SESSIONS: 8
+
+  tasks:
+  - name: check no of sessions are more than 5
+    ansible.builtin.debug:
+      msg: "Yes, more than 5 sessions"
+    when: NO_OF_SESSIONS > 5
