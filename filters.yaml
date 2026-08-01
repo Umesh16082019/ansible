@@ -1,7 +1,17 @@
 - name: demo on filters
   hosts: local
   connection: local
+  vars:
+    course: "DevOps with Ansible"
   tasks:
   - name: greeting
     ansible.builtin.debug:
       msg: "Hi Umesh, {{ GREETING | default('Good Morning') }}"
+
+  - name: convert to uppercase
+    ansible.builtin.debug:
+      msg: "{{ course | upper }}"
+
+  - name: convert to lowercase
+    ansible.builtin.debug:
+      msg: "{{ course | lower }}"
