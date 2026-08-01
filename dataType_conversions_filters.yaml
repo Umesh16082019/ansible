@@ -1,0 +1,18 @@
+- name: data type conversions
+  hosts: local
+  connection: local
+  vars:
+    topics: AWS, Ansible, Docker, Terraform
+    tagsList:
+      name: ansible
+      project: roboshop
+      component: catalogue
+  tasks:
+  - name: string to list 
+    ansible.builtin.debug:
+      msg: "{{ topics | split (',') }}"
+  
+  tasks:
+  - name: map to list 
+    ansible.builtin.debug:
+      msg: "{{ tagsList | dict2items }}"
