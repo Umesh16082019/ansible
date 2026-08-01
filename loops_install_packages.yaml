@@ -8,6 +8,5 @@
       name: "{{ item }}"
       state: present
     loop:
-    - mariadb
     - nginx
     - zip
