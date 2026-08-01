@@ -3,6 +3,7 @@
   connection: local
   vars:
     course: "DevOps with Ansible"
+    myIp: "246.457.390.258"
   tasks:
   - name: greeting
     ansible.builtin.debug:
@@ -15,3 +16,7 @@
   - name: convert to lowercase
     ansible.builtin.debug:
       msg: "{{ course | lower }}"
+      
+  - name: check IPv4
+    ansible.builtin.debug:
+      msg: "{{ myIp | ansible.utils.ipv4 }}"
