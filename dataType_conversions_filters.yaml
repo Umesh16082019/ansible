@@ -12,7 +12,6 @@
     ansible.builtin.debug:
       msg: "{{ topics | split (',') }}"
   
-  tasks:
   - name: map to list 
     ansible.builtin.debug:
       msg: "{{ tagsList | dict2items }}"
