@@ -3,7 +3,7 @@
   connection: local
   vars:
     course: "DevOps with Ansible"
-    myIp: "246.457.390.258"
+    myIp: "54.160.221.237"
   tasks:
   - name: greeting
     ansible.builtin.debug:
